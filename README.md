@@ -22,6 +22,7 @@ flask run
 
 ### Run with docker 
 ```sh
+cd app/
 docker build -t wize-assessment .
 docker run -it -p 8080:8080 wize-assessment
 ```
